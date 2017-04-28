@@ -42,7 +42,7 @@ class DynamicRelations extends Widget
 		]);
 	}
 
-	public function uniqueOptions($field, $uniq)
+	public static function uniqueOptions($field, $uniq)
 	{
         	return [
 	                'id' => "$field-$uniq-id",
